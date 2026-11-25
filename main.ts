@@ -2,6 +2,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
+// One sentence only: the joke lands because the complaint stays in a single breath.
 const entry = "I am blamed every time the data is stale, yet nobody has ever once thanked me for the nine times it was fresh.";
 
 const outDir = process.env.MAKEFUN_OUTPUT_DIR || "/output";
